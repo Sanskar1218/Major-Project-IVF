@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# trained artefacts and any real patient data must never be committed
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+*.csv
